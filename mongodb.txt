@@ -1,0 +1,11 @@
+//creating database in MongoDB
+
+use mydb
+
+//creating collection in MongoDB
+
+db.createCollection("userprofile")
+
+//find records
+
+db.userprofile.find();
